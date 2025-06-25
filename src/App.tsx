@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 
-
 const App: React.FC = () => (
   <>
+  
   <Router>
     <Routes>
       <Route path="/" element={<Home />} />

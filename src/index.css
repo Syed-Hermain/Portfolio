@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@custom-variant dark (&:where([dark-theme=dark],[data-theme-dark]*));
+
 
 @theme {
   --color-border: hsl(var(--border));
