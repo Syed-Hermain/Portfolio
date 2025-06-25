@@ -8,10 +8,12 @@ const Home: React.FC = () => {
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
       {/* Title */}
       <ThemeToggle />
-{/* background*/}
-     <StarBackground />
-       {/* Navbar */}
-<Navbar/>
+      {/* background*/}
+      <StarBackground />
+      {/* Navbar */}
+      <Navbar />
+        {/* Main Content */}
+        
     </div>
   );
 };
