@@ -6,6 +6,7 @@ import HeroSection from "../components/HeroSection";
 import AboutSection from "../components/AboutSection";
 import SkillSection from "../components/SkillSection";
 import ProjectSection from "../components/ProjectSection";
+import ContactSection from "../components/ContactSection";
 
 const Home: React.FC = () => {
   return (
@@ -22,6 +23,8 @@ const Home: React.FC = () => {
         <SkillSection />
 
         <ProjectSection />
+
+        <ContactSection/>
     </div>
   );
 };
