@@ -1,7 +1,9 @@
 import React from "react";
 import { Code } from "lucide-react";
+import { User, Briefcase } from "lucide-react";
+
 const AboutSection: React.FC = () => (
-  <section id="about" className="py-24 px-4 relative">
+  <section id="about" className="py-12">
     {" "}
     <div className="container mx-auto max-w-5xl">
       <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
@@ -27,7 +29,7 @@ const AboutSection: React.FC = () => (
           that meet both user needs and business goals.
         </p>
 
-        <div className="flex flex-col sm-flex-row gap-4 pt-4 justify-center">
+        <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
           <a href="#contact" className="cosmic-button">
             Get in touch
           </a>
@@ -42,29 +44,49 @@ const AboutSection: React.FC = () => (
       </div>
 
       <div className="grid grid-cols-1 gap-6">
-        <div className="relative gradient-border p-6">
-          
-          <div className="relative flex items-start gap-4">
-            <div className="p-3 rounded-full bg-primary/10">
-              <Code className="h-6 w-6 text-primary" />
-            </div>
-          </div>
-        </div>
-        <div className="gradient-border p-6 card-hover">
+        <div className="bg-card flex items-center justify-between p-6 rounded-lg shadow-xs card-hover">
           <div className="flex items-start gap-4">
             <div className="p-3 rounded-full bg-primary/10">
               <Code className="h-6 w-6 text-primary" />
             </div>
-          </div>
-        </div>
-        <div className="gradient-border p-6 card-hover">
-          <div className="flex items-start gap-4">
-            <div className="p-3 rounded-full bg-primary/10">
-              <Code className="h-6 w-6 text-primary" />
+            <div className="text-left">
+              <h4 className="font-semibold text-lg">Web Development</h4>
+              <p className="text-muted-foreground">
+                Creating responsive and accessible web applications with modern
+                technologies.
+              </p>
             </div>
           </div>
         </div>
-        <div className="gradient-border p-6 card-hover"></div>
+
+        <div className="bg-card flex items-center justify-between p-6 rounded-lg shadow-xs card-hover">
+          <div className="flex items-start gap-4">
+            <div className="p-3 rounded-full bg-primary/10">
+              <User className="h-6 w-6 text-primary" />
+            </div>
+            <div className="text-left">
+              <h4 className="font-semibold text-lg">UI/UX Design</h4>
+              <p className="text-muted-foreground">
+                Creating responsive and accessible web applications with modern
+                technologies.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="bg-card flex items-center justify-between p-6 rounded-lg shadow-xs card-hover">
+          <div className="flex items-start gap-4">
+            <div className="p-3 rounded-full bg-primary/10">
+              <Briefcase className="h-6 w-6 text-primary" />
+            </div>
+            <div className="text-left">
+              <h4 className="font-semibold text-lg">Project Management</h4>
+              <p className="text-muted-foreground">
+                Creating responsive and accessible web applications with modern
+                technologies.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>

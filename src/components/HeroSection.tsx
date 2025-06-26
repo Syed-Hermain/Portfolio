@@ -7,8 +7,8 @@ const HeroSection: React.FC = () => {
       <div className="max-w-2xl text-center">
         <h1 className="text-4xl md:text-6xl font-extrabold mb-4">
           Hi, I'm{" "}
-          <span className="text-yellow-300 opacity-0 animate-fade-in">
-            Your Name
+          <span className="text-primary opacity-0 animate-fade-in">
+            Hermain
           </span>
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-2xl mx--auto opacity-0 animate-fade-in-delay-3">

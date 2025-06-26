@@ -4,6 +4,8 @@ import StarBackground from "../components/StarBackground";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import AboutSection from "../components/AboutSection";
+import SkillSection from "../components/SkillSection";
+import ProjectSection from "../components/ProjectSection";
 
 const Home: React.FC = () => {
   return (
@@ -17,6 +19,9 @@ const Home: React.FC = () => {
         {/* Main Content */}
         <HeroSection/>
         <AboutSection />
+        <SkillSection />
+
+        <ProjectSection />
     </div>
   );
 };

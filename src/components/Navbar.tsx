@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
                 <div className="flex justify-between h-16 items-center">
                     <div className="flex-shrink-0">
                         <Link to="/" className="text-2xl font-bold ">
-                            Hermain- The Great
+                            Hermain - <span className="text-primary">Web Dev</span>
                         </Link>
                     </div>
                     {/* Desktop Menu */}
