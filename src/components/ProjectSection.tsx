@@ -3,26 +3,26 @@ import { ArrowRight } from "lucide-react";
 import { ExternalLink } from "lucide-react";
 
 const projects = [
-  {
-    id: 1,
-    title: "Spotify Clone",
-    description:
-      "A Spotify clone built with Plain JavaScript, Vanilla CSS, and HTML. It features a responsive design, music playback, and a user-friendly interface.",
-    image: "public/projects/spotify-clone.jpg",
-    tags: ["JavaScript", "CSS", "HTML"],
-    demoUrl: "https://syed-hermain.github.io/Spotify-Clone/",
-    githubUrl: "https://github.com/Syed-Hermain/Spotify-Clone",
-  },
-  {
-    id: 2,
-    title: "E-commerce Website",
-    description:
-      "An e-commerce website built with Next.js and MongoDB, featuring product listings, a shopping cart, and user authentication.",
-    image: "https://via.placeholder.com/300",
-    tags: ["Next.js", "MongoDB", "JavaScript"],
-    demoUrl: "https://example.com/demo",
-    githubUrl: "https://github.com/example/repo",
-  },
+    {
+        id: 1,
+        title: "Spotify Clone",
+        description:
+            "A Spotify clone built with Plain JavaScript, Vanilla CSS, and HTML. It features a responsive design, music playback, and a user-friendly interface.",
+        image: "/projects/spotify-clone.jpg", // <-- Remove "public" from the path
+        tags: ["JavaScript", "CSS", "HTML"],
+        demoUrl: "https://syed-hermain.github.io/Spotify-Clone/",
+        githubUrl: "https://github.com/Syed-Hermain/Spotify-Clone",
+    },
+    {
+        id: 2,
+        title: "E-commerce Website",
+        description:
+            "An e-commerce website built with Next.js and MongoDB, featuring product listings, a shopping cart, and user authentication.",
+        image: "https://via.placeholder.com/300",
+        tags: ["Next.js", "MongoDB", "JavaScript"],
+        demoUrl: "https://example.com/demo",
+        githubUrl: "https://github.com/example/repo",
+    },
 ];
 
 const ProjectSection: React.FC = () => {
