@@ -43,11 +43,11 @@ href:"https://www.instagram.com/hermain_irfan/",
 ];
 
 const ContactSection: React.FC = () => (
-<footer className="w-full bg-gray-900 text-gray-200 pt-10 pb-6 mt-16">
+<footer className="bg-gray-400/10 w-full pt-10 pb-6 mt-16">
     <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between">
         <div className="mb-8 md:mb-0 flex-1">
             <h2 className="text-2xl font-bold mb-2">Get in Touch</h2>
-            <p className="text-gray-400 max-w-md mx-auto text-center">
+            <p className="max-w-md mx-auto text-center">
                 Interested in working together or have any questions? Reach out via any of the methods below.
             </p>
             {/* Horizontal contacts for md+ screens */}
@@ -82,7 +82,7 @@ const ContactSection: React.FC = () => (
             ))}
         </div>
     </div>
-    <div className="border-t border-gray-700 mt-8 pt-4 text-center text-gray-500 text-sm">
+    <div className="border-t mt-8 pt-4 text-center text-sm">
         &copy; {new Date().getFullYear()} Hermain. All rights reserved.
     </div>
 </footer>
