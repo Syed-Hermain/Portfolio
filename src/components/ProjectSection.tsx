@@ -5,13 +5,13 @@ import { ExternalLink } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
+    title: "Spotify Clone",
     description:
-      "A modern SaaS landing page built with React and Tailwind CSS, featuring a responsive design and interactive elements.",
-    image: "https://via.placeholder.com/300",
-    tags: ["React", "Tailwind CSS", "JavaScript"],
-    demoUrl: "https://example.com/demo",
-    githubUrl: "https://github.com/example/repo",
+      "A Spotify clone built with Plain JavaScript, Vanilla CSS, and HTML. It features a responsive design, music playback, and a user-friendly interface.",
+    image: "public/projects/spotify-clone.jpg",
+    tags: ["JavaScript", "CSS", "HTML"],
+    demoUrl: "https://syed-hermain.github.io/Spotify-Clone/",
+    githubUrl: "https://github.com/Syed-Hermain/Spotify-Clone",
   },
   {
     id: 2,

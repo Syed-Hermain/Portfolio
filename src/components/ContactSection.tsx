@@ -46,7 +46,7 @@ const ContactSection: React.FC = () => (
 <footer className="bg-gray-400/10 w-full pt-10 pb-6 mt-16">
     <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between">
         <div className="mb-8 md:mb-0 flex-1">
-            <h2 className="text-2xl font-bold mb-2">Get in Touch</h2>
+            <h2 className="text-2xl font-bold mb-2">Get in <span className="text-primary">Touch</span></h2>
             <p className="max-w-md mx-auto text-center">
                 Interested in working together or have any questions? Reach out via any of the methods below.
             </p>
