@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom"; // Use react-router-dom for web apps
+import ThemeToggle from "./ThemeToggle";
+
 
 const Navbar: React.FC = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -39,6 +41,7 @@ const Navbar: React.FC = () => {
                         >
                             Contact
                         </Link>
+                        <ThemeToggle/>
                     </div>
                     {/* Mobile menu button */}
                     <div className="md:hidden flex items-center">
@@ -105,6 +108,7 @@ const Navbar: React.FC = () => {
                     >
                         Contact
                     </Link>
+                    <ThemeToggle/>
                 </div>
             )}
         </nav>
