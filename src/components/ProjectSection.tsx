@@ -19,11 +19,11 @@ const projects = [
         title: "Twitter Clone",
         description:
             "A Twitter Clone which has dynamic interface, and adjusts to various screen. It allows us to Tweet. Although a backend is still in production, the seamless UI gives a smooth user experience",
-        imageMobile:"",
+        imageMobile:"/projects/twitter-cloneM.png",
             imageDesktop: "/projects/twitter-clone.png",
-        tags: ["Next.js", "MongoDB", "JavaScript"],
-        demoUrl: "https://example.com/demo",
-        githubUrl: "https://github.com/example/repo",
+        tags: ["React", "Supabase", "TypeScript"],
+        demoUrl: "https://social-media-flame-gamma.vercel.app/",
+        githubUrl: "https://github.com/Syed-Hermain/Social-Media/tree/main",
     },
 ];
 
