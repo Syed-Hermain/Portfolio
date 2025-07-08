@@ -1,24 +1,26 @@
 import { Github } from "lucide-react";
 import { ArrowRight } from "lucide-react";
 import { ExternalLink } from "lucide-react";
-
+//className="w-full h-full object-cover transition-transform duration-500"
 const projects = [
     {
         id: 1,
         title: "Spotify Clone",
         description:
             "A Spotify clone built with Plain JavaScript, Vanilla CSS, and HTML. It features a responsive design, music playback, and a user-friendly interface.",
-        image: "/projects/spotify-clone.jpg", // <-- Remove "public" from the path
+        imageMobile: "/projects/spotify-clone.jpg", // <-- Remove "public" from the path
+        imageDesktop:"/projects/spotify-cloneD.png",
         tags: ["JavaScript", "CSS", "HTML"],
         demoUrl: "https://syed-hermain.github.io/Spotify-Clone/",
         githubUrl: "https://github.com/Syed-Hermain/Spotify-Clone",
     },
     {
         id: 2,
-        title: "E-commerce Website",
+        title: "Twitter Clone",
         description:
-            "An e-commerce website built with Next.js and MongoDB, featuring product listings, a shopping cart, and user authentication.",
-        image: "https://via.placeholder.com/300",
+            "A Twitter Clone which has dynamic interface, and adjusts to various screen. It allows us to Tweet. Although a backend is still in production, the seamless UI gives a smooth user experience",
+        imageMobile:"",
+            imageDesktop: "/projects/twitter-clone.png",
         tags: ["Next.js", "MongoDB", "JavaScript"],
         demoUrl: "https://example.com/demo",
         githubUrl: "https://github.com/example/repo",
@@ -39,9 +41,14 @@ const ProjectSection: React.FC = () => {
               className="bg-white/5 rounded-lg shadow-md overflow-hidden flex flex-col card-hover"
             >
               <img
-                src={project.image}
+                src={project.imageDesktop}
                 alt={project.title}
-                className="w-full h-full object-cover transition-transform duration-500"
+                className="hidden sm:block w-full h-auto object-cover transition-transform duration-500"
+              />
+              <img
+                src={project.imageMobile}
+                alt={project.title}
+                className="block sm:hidden w-full h-auto object-cover transition-transform duration-500"
               />
               <div className="p-6 flex-1 flex flex-col">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
