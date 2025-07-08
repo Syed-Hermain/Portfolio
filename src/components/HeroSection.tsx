@@ -3,7 +3,7 @@ import { ArrowDown } from "lucide-react";
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="flex flex-col items-center justify-center min-h-screen">
+    <section id="hero" className="flex flex-col items-center justify-center min-h-screen">
       <div className="max-w-2xl text-center">
         <h1 className="text-4xl md:text-6xl font-extrabold mb-4">
           Hi, I'm{" "}
@@ -22,10 +22,9 @@ const HeroSection: React.FC = () => {
         </div>
       </div>
 
-
-      <div className="absolute bottom-8 left-1/2 transform-x-1/2 flex flex-col items-center animate-bounce">
-<span className="text-sm text-muted-foreground mb-2">Scroll</span>
-<ArrowDown className="h-5 w-5 text-primary"/>
+      <div className="absolute bottom-8 left-[47%] md:left-[49.5%] transform-x-1/2 flex flex-col items-center animate-bounce">
+        <span className="text-sm text-muted-foreground mb-2">Scroll</span>
+        <ArrowDown className="h-5 w-5 text-primary" />
       </div>
     </section>
   );
